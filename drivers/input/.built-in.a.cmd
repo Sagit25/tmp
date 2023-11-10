@@ -1,0 +1,1 @@
+cmd_drivers/input/built-in.a := rm -f drivers/input/built-in.a;  printf "drivers/input/%s " input.o input-compat.o input-mt.o input-poller.o ff-core.o touchscreen.o input-leds.o mousedev.o evdev.o keyboard/built-in.a joystick/built-in.a touchscreen/built-in.a misc/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/input/built-in.a

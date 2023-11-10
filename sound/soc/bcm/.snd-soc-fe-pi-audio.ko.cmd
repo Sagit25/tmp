@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-fe-pi-audio.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-fe-pi-audio.ko sound/soc/bcm/snd-soc-fe-pi-audio.o sound/soc/bcm/snd-soc-fe-pi-audio.mod.o;  true

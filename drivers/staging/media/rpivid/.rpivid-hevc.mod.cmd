@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/rpivid/rpivid-hevc.mod := printf '%s\n'   rpivid.o rpivid_video.o rpivid_dec.o rpivid_hw.o rpivid_h265.o | awk '!x[$$0]++ { print("drivers/staging/media/rpivid/"$$0) }' > drivers/staging/media/rpivid/rpivid-hevc.mod

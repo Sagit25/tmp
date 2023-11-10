@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/adxl34x.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/adxl34x.ko drivers/input/misc/adxl34x.o drivers/input/misc/adxl34x.mod.o;  true

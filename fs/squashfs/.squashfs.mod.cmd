@@ -1,0 +1,1 @@
+cmd_fs/squashfs/squashfs.mod := printf '%s\n'   block.o cache.o dir.o export.o file.o fragment.o id.o inode.o namei.o super.o symlink.o decompressor.o page_actor.o file_cache.o decompressor_single.o xattr.o xattr_id.o lzo_wrapper.o xz_wrapper.o zlib_wrapper.o | awk '!x[$$0]++ { print("fs/squashfs/"$$0) }' > fs/squashfs/squashfs.mod

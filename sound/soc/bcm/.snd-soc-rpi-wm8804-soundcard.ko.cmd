@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.ko sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.o sound/soc/bcm/snd-soc-rpi-wm8804-soundcard.mod.o;  true

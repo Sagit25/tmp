@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.mod := printf '%s\n'   bcm2835-camera.o controls.o | awk '!x[$$0]++ { print("drivers/staging/vc04_services/bcm2835-camera/"$$0) }' > drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.mod

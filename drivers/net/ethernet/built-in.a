@@ -1,0 +1,12 @@
+!<thin>
+//                                              124       `
+cadence/macb_main.o/
+cadence/macb_ptp.o/
+broadcom/genet/bcmgenet.o/
+broadcom/genet/bcmmii.o/
+broadcom/genet/bcmgenet_wol.o/
+/0              0           0     0     644     88352     `
+/21             0           0     0     644     9352      `
+/41             0           0     0     644     67400     `
+/68             0           0     0     644     12152     `
+/93             0           0     0     644     4752      `

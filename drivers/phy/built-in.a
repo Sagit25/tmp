@@ -1,0 +1,12 @@
+!<thin>
+//                                              128       `
+phy-core.o/
+phy-core-mipi-dphy.o/
+broadcom/phy-brcm-usb.o/
+broadcom/phy-brcm-usb-init.o/
+broadcom/phy-brcm-usb-init-synopsys.o/
+/0              0           0     0     644     45912     `
+/12             0           0     0     644     3928      `
+/34             0           0     0     644     18552     `
+/59             0           0     0     644     14616     `
+/89             0           0     0     644     8536      `

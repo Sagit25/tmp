@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/bcm2835/bcm2835-unicam.mod := printf '%s\n'   bcm2835-unicam.o | awk '!x[$$0]++ { print("drivers/media/platform/bcm2835/"$$0) }' > drivers/media/platform/bcm2835/bcm2835-unicam.mod

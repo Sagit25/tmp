@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/cpia2/cpia2.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/deprecated/cpia2/cpia2.ko drivers/staging/media/deprecated/cpia2/cpia2.o drivers/staging/media/deprecated/cpia2/cpia2.mod.o;  true

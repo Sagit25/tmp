@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.ko drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.o drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.mod.o;  true

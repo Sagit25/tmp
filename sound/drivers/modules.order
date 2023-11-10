@@ -1,0 +1,7 @@
+sound/drivers/snd-dummy.ko
+sound/drivers/snd-aloop.ko
+sound/drivers/snd-virmidi.ko
+sound/drivers/snd-serial-u16550.ko
+sound/drivers/snd-mtpav.ko
+sound/drivers/mpu401/snd-mpu401-uart.ko
+sound/drivers/mpu401/snd-mpu401.ko

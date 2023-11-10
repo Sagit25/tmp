@@ -1,0 +1,23 @@
+!<thin>
+//                                              184       `
+ledtrig-timer.o/
+ledtrig-oneshot.o/
+ledtrig-heartbeat.o/
+ledtrig-backlight.o/
+ledtrig-gpio.o/
+ledtrig-cpu.o/
+ledtrig-default-on.o/
+ledtrig-input.o/
+ledtrig-panic.o/
+ledtrig-actpwr.o/
+
+/0              0           0     0     644     6904      `
+/17             0           0     0     644     8184      `
+/36             0           0     0     644     8592      `
+/57             0           0     0     644     6608      `
+/78             0           0     0     644     8968      `
+/94             0           0     0     644     7168      `
+/109            0           0     0     644     4224      `
+/131            0           0     0     644     4336      `
+/148            0           0     0     644     4184      `
+/165            0           0     0     644     7296      `

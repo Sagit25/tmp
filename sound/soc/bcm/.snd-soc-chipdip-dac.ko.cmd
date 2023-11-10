@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-chipdip-dac.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-chipdip-dac.ko sound/soc/bcm/snd-soc-chipdip-dac.o sound/soc/bcm/snd-soc-chipdip-dac.mod.o;  true

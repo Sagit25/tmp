@@ -1,0 +1,1 @@
+cmd_drivers/input/joystick/modules.order := {   echo drivers/input/joystick/fsia6b.ko;   cat drivers/input/joystick/iforce/modules.order;   echo drivers/input/joystick/psxpad-spi.ko;   echo drivers/input/joystick/xpad.ko;   echo drivers/input/joystick/rpisense-js.ko; :; } > drivers/input/joystick/modules.order

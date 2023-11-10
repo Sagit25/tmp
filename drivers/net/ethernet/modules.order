@@ -1,0 +1,8 @@
+drivers/net/ethernet/microchip/enc28j60.ko
+drivers/net/ethernet/microchip/lan743x.ko
+drivers/net/ethernet/qualcomm/qca_7k_common.ko
+drivers/net/ethernet/qualcomm/qcaspi.ko
+drivers/net/ethernet/qualcomm/qcauart.ko
+drivers/net/ethernet/realtek/r8169.ko
+drivers/net/ethernet/wiznet/w5100.ko
+drivers/net/ethernet/wiznet/w5100-spi.ko

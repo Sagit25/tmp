@@ -1,0 +1,1 @@
+cmd_fs/cachefiles/built-in.a := rm -f fs/cachefiles/built-in.a;  printf "fs/cachefiles/%s " cache.o daemon.o interface.o io.o key.o main.o namei.o security.o volume.o xattr.o | xargs aarch64-linux-gnu-ar cDPrST fs/cachefiles/built-in.a

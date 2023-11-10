@@ -1,0 +1,1 @@
+cmd_drivers/i2c/muxes/modules.order := {   echo drivers/i2c/muxes/i2c-mux-gpmux.ko;   echo drivers/i2c/muxes/i2c-mux-pca954x.ko;   echo drivers/i2c/muxes/i2c-mux-pinctrl.ko; :; } > drivers/i2c/muxes/modules.order

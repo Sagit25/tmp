@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/tm6000/tm6000.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/staging/media/deprecated/tm6000/tm6000.o @drivers/staging/media/deprecated/tm6000/tm6000.mod 

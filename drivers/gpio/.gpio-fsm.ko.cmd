@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-fsm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-fsm.ko drivers/gpio/gpio-fsm.o drivers/gpio/gpio-fsm.mod.o;  true

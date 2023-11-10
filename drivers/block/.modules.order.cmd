@@ -1,0 +1,1 @@
+cmd_drivers/block/modules.order := {   echo drivers/block/pktcdvd.ko;   echo drivers/block/nbd.ko;   cat drivers/block/drbd/modules.order;   cat drivers/block/zram/modules.order; :; } > drivers/block/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/tm6000/tm6000.mod := printf '%s\n'   tm6000-cards.o tm6000-core.o tm6000-i2c.o tm6000-video.o tm6000-stds.o tm6000-input.o | awk '!x[$$0]++ { print("drivers/staging/media/deprecated/tm6000/"$$0) }' > drivers/staging/media/deprecated/tm6000/tm6000.mod

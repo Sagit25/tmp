@@ -1,0 +1,6 @@
+drivers/input/joystick/fsia6b.ko
+drivers/input/joystick/iforce/iforce.ko
+drivers/input/joystick/iforce/iforce-usb.ko
+drivers/input/joystick/psxpad-spi.ko
+drivers/input/joystick/xpad.ko
+drivers/input/joystick/rpisense-js.ko

@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.o @drivers/staging/vc04_services/bcm2835-camera/bcm2835-v4l2.mod 

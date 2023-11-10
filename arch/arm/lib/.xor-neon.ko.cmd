@@ -1,0 +1,1 @@
+cmd_arch/arm/lib/xor-neon.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm/lib/xor-neon.ko arch/arm/lib/xor-neon.o arch/arm/lib/xor-neon.mod.o;  true

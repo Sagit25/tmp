@@ -1,0 +1,15 @@
+!<thin>
+//                                              108       `
+dmaengine.o/
+virt-dma.o/
+of-dma.o/
+bcm2708-dmaengine.o/
+bcm2835-dma.o/
+dw-axi-dmac/dw-axi-dmac-platform.o/
+
+/0              0           0     0     644     47736     `
+/13             0           0     0     644     7224      `
+/25             0           0     0     644     11256     `
+/35             0           0     0     644     10464     `
+/56             0           0     0     644     28048     `
+/71             0           0     0     644     32712     `

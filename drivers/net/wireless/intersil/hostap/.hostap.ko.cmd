@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/hostap/hostap.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/intersil/hostap/hostap.ko drivers/net/wireless/intersil/hostap/hostap.o drivers/net/wireless/intersil/hostap/hostap.mod.o;  true

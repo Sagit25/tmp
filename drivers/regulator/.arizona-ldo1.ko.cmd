@@ -1,0 +1,1 @@
+cmd_drivers/regulator/arizona-ldo1.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/regulator/arizona-ldo1.ko drivers/regulator/arizona-ldo1.o drivers/regulator/arizona-ldo1.mod.o;  true

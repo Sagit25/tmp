@@ -1,0 +1,4 @@
+drivers/iio/imu/bno055/bno055.ko
+drivers/iio/imu/bno055/bno055_i2c.ko
+drivers/iio/imu/inv_mpu6050/inv-mpu6050.ko
+drivers/iio/imu/inv_mpu6050/inv-mpu6050-i2c.ko

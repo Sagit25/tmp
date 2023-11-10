@@ -1,0 +1,1 @@
+cmd_drivers/media/test-drivers/vicodec/vicodec.mod := printf '%s\n'   vicodec-core.o codec-fwht.o codec-v4l2-fwht.o | awk '!x[$$0]++ { print("drivers/media/test-drivers/vicodec/"$$0) }' > drivers/media/test-drivers/vicodec/vicodec.mod

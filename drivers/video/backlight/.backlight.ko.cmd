@@ -1,0 +1,1 @@
+cmd_drivers/video/backlight/backlight.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/backlight/backlight.ko drivers/video/backlight/backlight.o drivers/video/backlight/backlight.mod.o;  true

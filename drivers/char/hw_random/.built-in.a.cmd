@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.a := rm -f drivers/char/hw_random/built-in.a;  printf "drivers/char/hw_random/%s " core.o bcm2835-rng.o iproc-rng200.o arm_smccc_trng.o cn10k-rng.o | xargs aarch64-linux-gnu-ar cDPrST drivers/char/hw_random/built-in.a

@@ -1,0 +1,4 @@
+drivers/iio/humidity/dht11.ko
+drivers/iio/humidity/hdc100x.ko
+drivers/iio/humidity/htu21.ko
+drivers/iio/humidity/si7020.ko

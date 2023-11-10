@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/raspberrypi/rp1_cfe/rp1-cfe.o := aarch64-linux-gnu-ld -EL  -maarch64elf -z noexecstack   -r -o drivers/media/platform/raspberrypi/rp1_cfe/rp1-cfe.o @drivers/media/platform/raspberrypi/rp1_cfe/rp1-cfe.mod 

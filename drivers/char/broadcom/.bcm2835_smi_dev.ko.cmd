@@ -1,0 +1,1 @@
+cmd_drivers/char/broadcom/bcm2835_smi_dev.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/char/broadcom/bcm2835_smi_dev.ko drivers/char/broadcom/bcm2835_smi_dev.o drivers/char/broadcom/bcm2835_smi_dev.mod.o;  true

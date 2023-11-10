@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/curve25519-neon.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm/crypto/curve25519-neon.ko arch/arm/crypto/curve25519-neon.o arch/arm/crypto/curve25519-neon.mod.o;  true

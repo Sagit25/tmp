@@ -1,0 +1,1 @@
+cmd_drivers/gpio/gpio-arizona.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpio/gpio-arizona.ko drivers/gpio/gpio-arizona.o drivers/gpio/gpio-arizona.mod.o;  true

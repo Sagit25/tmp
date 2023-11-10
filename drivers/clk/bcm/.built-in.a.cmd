@@ -1,0 +1,1 @@
+cmd_drivers/clk/bcm/built-in.a := rm -f drivers/clk/bcm/built-in.a;  printf "drivers/clk/bcm/%s " clk-bcm2711-dvp.o clk-bcm2835.o clk-bcm2835-aux.o clk-raspberrypi.o | xargs aarch64-linux-gnu-ar cDPrST drivers/clk/bcm/built-in.a

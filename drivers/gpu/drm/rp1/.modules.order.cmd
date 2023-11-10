@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/rp1/modules.order := {   cat drivers/gpu/drm/rp1/rp1-dsi/modules.order;   cat drivers/gpu/drm/rp1/rp1-dpi/modules.order;   cat drivers/gpu/drm/rp1/rp1-vec/modules.order; :; } > drivers/gpu/drm/rp1/modules.order

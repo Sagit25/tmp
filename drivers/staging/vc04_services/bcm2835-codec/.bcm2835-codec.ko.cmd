@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.ko drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.o drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.mod.o;  true

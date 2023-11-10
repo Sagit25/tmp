@@ -1,0 +1,1 @@
+cmd_drivers/accessibility/built-in.a := rm -f drivers/accessibility/built-in.a;  printf "drivers/accessibility/%s " braille/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/accessibility/built-in.a

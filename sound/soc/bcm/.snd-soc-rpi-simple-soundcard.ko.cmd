@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-rpi-simple-soundcard.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-rpi-simple-soundcard.ko sound/soc/bcm/snd-soc-rpi-simple-soundcard.o sound/soc/bcm/snd-soc-rpi-simple-soundcard.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/rp1/rp1-vec/drm-rp1-vec.mod := printf '%s\n'   rp1_vec.o rp1_vec_hw.o rp1_vec_cfg.o | awk '!x[$$0]++ { print("drivers/gpu/drm/rp1/rp1-vec/"$$0) }' > drivers/gpu/drm/rp1/rp1-vec/drm-rp1-vec.mod

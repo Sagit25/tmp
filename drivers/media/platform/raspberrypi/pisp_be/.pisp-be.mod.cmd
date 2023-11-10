@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/raspberrypi/pisp_be/pisp-be.mod := printf '%s\n'   pisp_be.o | awk '!x[$$0]++ { print("drivers/media/platform/raspberrypi/pisp_be/"$$0) }' > drivers/media/platform/raspberrypi/pisp_be/pisp-be.mod

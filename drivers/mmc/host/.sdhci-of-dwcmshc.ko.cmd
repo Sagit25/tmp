@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/sdhci-of-dwcmshc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mmc/host/sdhci-of-dwcmshc.ko drivers/mmc/host/sdhci-of-dwcmshc.o drivers/mmc/host/sdhci-of-dwcmshc.mod.o;  true

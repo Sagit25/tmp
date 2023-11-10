@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/modules.order := {   echo drivers/power/supply/rpi_poe_power.ko;   echo drivers/power/supply/ds2760_battery.ko;   echo drivers/power/supply/ltc2941-battery-gauge.ko;   echo drivers/power/supply/max17040_battery.ko;   echo drivers/power/supply/gpio-charger.ko; :; } > drivers/power/supply/modules.order

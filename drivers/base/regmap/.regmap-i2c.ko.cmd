@@ -1,0 +1,1 @@
+cmd_drivers/base/regmap/regmap-i2c.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/base/regmap/regmap-i2c.ko drivers/base/regmap/regmap-i2c.o drivers/base/regmap/regmap-i2c.mod.o;  true

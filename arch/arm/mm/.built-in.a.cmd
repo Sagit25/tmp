@@ -1,0 +1,1 @@
+cmd_arch/arm/mm/built-in.a := rm -f arch/arm/mm/built-in.a;  printf "arch/arm/mm/%s " extable.o fault.o init.o iomap.o dma-mapping.o fault-armv.o flush.o idmap.o ioremap.o mmap.o pgd.o mmu.o pageattr.o proc-syms.o alignment.o abort-ev7.o pabort-v7.o cache-v7.o copypage-v6.o context.o tlb-v7.o proc-v7.o proc-v7-bugs.o | xargs arm-linux-gnueabihf-ar cDPrST arch/arm/mm/built-in.a

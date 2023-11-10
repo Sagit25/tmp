@@ -1,0 +1,9 @@
+drivers/net/can/dev/can-dev.ko
+drivers/net/can/spi/mcp251xfd/mcp251xfd.ko
+drivers/net/can/spi/mcp251x.ko
+drivers/net/can/usb/usb_8dev.ko
+drivers/net/can/usb/ems_usb.ko
+drivers/net/can/usb/gs_usb.ko
+drivers/net/can/usb/peak_usb/peak_usb.ko
+drivers/net/can/vcan.ko
+drivers/net/can/slcan/slcan.ko

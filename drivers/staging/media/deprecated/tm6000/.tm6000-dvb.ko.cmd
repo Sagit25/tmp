@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/tm6000/tm6000-dvb.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/deprecated/tm6000/tm6000-dvb.ko drivers/staging/media/deprecated/tm6000/tm6000-dvb.o drivers/staging/media/deprecated/tm6000/tm6000-dvb.mod.o;  true

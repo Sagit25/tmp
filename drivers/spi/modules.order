@@ -1,0 +1,7 @@
+drivers/spi/spidev.ko
+drivers/spi/spi-bcm2835.ko
+drivers/spi/spi-bcm2835aux.ko
+drivers/spi/spi-bitbang.ko
+drivers/spi/spi-dw.ko
+drivers/spi/spi-dw-mmio.ko
+drivers/spi/spi-gpio.ko

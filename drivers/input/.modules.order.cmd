@@ -1,0 +1,1 @@
+cmd_drivers/input/modules.order := {   cat drivers/input/keyboard/modules.order;   cat drivers/input/joystick/modules.order;   cat drivers/input/touchscreen/modules.order;   cat drivers/input/misc/modules.order;   echo drivers/input/ff-memless.ko;   echo drivers/input/matrix-keymap.ko;   echo drivers/input/joydev.ko; :; } > drivers/input/modules.order

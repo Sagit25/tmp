@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.mod := printf '%s\n'   rp1_dpi.o rp1_dpi_hw.o rp1_dpi_cfg.o | awk '!x[$$0]++ { print("drivers/gpu/drm/rp1/rp1-dpi/"$$0) }' > drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.mod

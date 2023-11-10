@@ -1,0 +1,15 @@
+!<thin>
+//                                              102       `
+udc/core.o/
+udc/trace.o/
+udc/bdc/bdc_core.o/
+udc/bdc/bdc_cmd.o/
+udc/bdc/bdc_ep.o/
+udc/bdc/bdc_udc.o/
+
+/0              0           0     0     644     68952     `
+/12             0           0     0     644     45792     `
+/25             0           0     0     644     14872     `
+/45             0           0     0     644     5736      `
+/64             0           0     0     644     21168     `
+/82             0           0     0     644     11000     `

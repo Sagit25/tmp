@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.ko drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.o drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod.o;  true

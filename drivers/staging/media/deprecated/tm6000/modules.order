@@ -1,0 +1,3 @@
+drivers/staging/media/deprecated/tm6000/tm6000.ko
+drivers/staging/media/deprecated/tm6000/tm6000-alsa.ko
+drivers/staging/media/deprecated/tm6000/tm6000-dvb.ko

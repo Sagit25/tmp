@@ -1,0 +1,1 @@
+cmd_drivers/iio/chemical/modules.order := {   echo drivers/iio/chemical/bme680_core.ko;   echo drivers/iio/chemical/bme680_i2c.ko;   echo drivers/iio/chemical/bme680_spi.ko;   echo drivers/iio/chemical/ccs811.ko;   echo drivers/iio/chemical/sgp30.ko;   echo drivers/iio/chemical/sps30.ko;   echo drivers/iio/chemical/sps30_i2c.ko; :; } > drivers/iio/chemical/modules.order

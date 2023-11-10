@@ -1,0 +1,1 @@
+cmd_drivers/staging/wlan-ng/prism2_usb.mod := printf '%s\n'   prism2usb.o p80211conv.o p80211req.o p80211wep.o p80211netdev.o | awk '!x[$$0]++ { print("drivers/staging/wlan-ng/"$$0) }' > drivers/staging/wlan-ng/prism2_usb.mod

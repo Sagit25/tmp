@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-codec/modules.order := {   echo drivers/staging/vc04_services/bcm2835-codec/bcm2835-codec.ko; :; } > drivers/staging/vc04_services/bcm2835-codec/modules.order

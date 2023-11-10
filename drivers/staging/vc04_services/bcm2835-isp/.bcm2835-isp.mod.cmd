@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-isp/bcm2835-isp.mod := printf '%s\n'   bcm2835-v4l2-isp.o | awk '!x[$$0]++ { print("drivers/staging/vc04_services/bcm2835-isp/"$$0) }' > drivers/staging/vc04_services/bcm2835-isp/bcm2835-isp.mod

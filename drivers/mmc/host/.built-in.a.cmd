@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.a := rm -f drivers/mmc/host/built-in.a;  printf "drivers/mmc/host/%s " sdhci.o bcm2835-mmc.o bcm2835-sdhost.o sdhci-pltfm.o sdhci-iproc.o sdhci-brcmstb.o cqhci-core.o | xargs aarch64-linux-gnu-ar cDPrST drivers/mmc/host/built-in.a

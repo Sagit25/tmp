@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/poly1305-arm.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o arch/arm/crypto/poly1305-arm.ko arch/arm/crypto/poly1305-arm.o arch/arm/crypto/poly1305-arm.mod.o;  true

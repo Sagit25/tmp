@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/built-in.a := rm -f drivers/pci/controller/built-in.a;  printf "drivers/pci/controller/%s " pcie-brcmstb.o dwc/built-in.a mobiveil/built-in.a | xargs aarch64-linux-gnu-ar cDPrST drivers/pci/controller/built-in.a

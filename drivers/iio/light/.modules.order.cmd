@@ -1,0 +1,1 @@
+cmd_drivers/iio/light/modules.order := {   echo drivers/iio/light/apds9960.ko;   echo drivers/iio/light/bh1750.ko;   echo drivers/iio/light/tsl4531.ko;   echo drivers/iio/light/veml6070.ko; :; } > drivers/iio/light/modules.order

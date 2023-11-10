@@ -1,0 +1,1 @@
+cmd_drivers/mfd/arizona.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/mfd/arizona.ko drivers/mfd/arizona.o drivers/mfd/arizona.mod.o;  true

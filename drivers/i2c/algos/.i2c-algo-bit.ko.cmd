@@ -1,0 +1,1 @@
+cmd_drivers/i2c/algos/i2c-algo-bit.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/i2c/algos/i2c-algo-bit.ko drivers/i2c/algos/i2c-algo-bit.o drivers/i2c/algos/i2c-algo-bit.mod.o;  true

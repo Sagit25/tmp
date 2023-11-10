@@ -1,0 +1,12 @@
+net/netfilter/ipset/ip_set.ko
+net/netfilter/ipset/ip_set_bitmap_ip.ko
+net/netfilter/ipset/ip_set_bitmap_ipmac.ko
+net/netfilter/ipset/ip_set_bitmap_port.ko
+net/netfilter/ipset/ip_set_hash_ip.ko
+net/netfilter/ipset/ip_set_hash_ipport.ko
+net/netfilter/ipset/ip_set_hash_ipportip.ko
+net/netfilter/ipset/ip_set_hash_ipportnet.ko
+net/netfilter/ipset/ip_set_hash_net.ko
+net/netfilter/ipset/ip_set_hash_netport.ko
+net/netfilter/ipset/ip_set_hash_netiface.ko
+net/netfilter/ipset/ip_set_list_set.ko

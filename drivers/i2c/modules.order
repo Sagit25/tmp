@@ -1,0 +1,14 @@
+drivers/i2c/algos/i2c-algo-bit.ko
+drivers/i2c/busses/i2c-bcm2708.ko
+drivers/i2c/busses/i2c-bcm2835.ko
+drivers/i2c/busses/i2c-designware-core.ko
+drivers/i2c/busses/i2c-designware-platform.ko
+drivers/i2c/busses/i2c-gpio.ko
+drivers/i2c/busses/i2c-robotfuzz-osif.ko
+drivers/i2c/busses/i2c-tiny-usb.ko
+drivers/i2c/busses/i2c-brcmstb.ko
+drivers/i2c/muxes/i2c-mux-gpmux.ko
+drivers/i2c/muxes/i2c-mux-pca954x.ko
+drivers/i2c/muxes/i2c-mux-pinctrl.ko
+drivers/i2c/i2c-dev.ko
+drivers/i2c/i2c-mux.ko

@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod := printf '%s\n'   mmal-vchiq.o | awk '!x[$$0]++ { print("drivers/staging/vc04_services/vchiq-mmal/"$$0) }' > drivers/staging/vc04_services/vchiq-mmal/bcm2835-mmal-vchiq.mod

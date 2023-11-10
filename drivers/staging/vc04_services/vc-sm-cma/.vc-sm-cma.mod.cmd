@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.mod := printf '%s\n'   vc_sm.o vc_sm_cma_vchi.o | awk '!x[$$0]++ { print("drivers/staging/vc04_services/vc-sm-cma/"$$0) }' > drivers/staging/vc04_services/vc-sm-cma/vc-sm-cma.mod

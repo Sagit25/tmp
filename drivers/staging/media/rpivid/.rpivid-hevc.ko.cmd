@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/rpivid/rpivid-hevc.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/rpivid/rpivid-hevc.ko drivers/staging/media/rpivid/rpivid-hevc.o drivers/staging/media/rpivid/rpivid-hevc.mod.o;  true

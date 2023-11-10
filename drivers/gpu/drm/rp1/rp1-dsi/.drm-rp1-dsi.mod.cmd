@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.mod := printf '%s\n'   rp1_dsi.o rp1_dsi_dma.o rp1_dsi_dsi.o | awk '!x[$$0]++ { print("drivers/gpu/drm/rp1/rp1-dsi/"$$0) }' > drivers/gpu/drm/rp1/rp1-dsi/drm-rp1-dsi.mod

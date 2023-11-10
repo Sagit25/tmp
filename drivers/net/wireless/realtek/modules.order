@@ -1,0 +1,6 @@
+drivers/net/wireless/realtek/rtl818x/rtl8187/rtl8187.ko
+drivers/net/wireless/realtek/rtlwifi/rtlwifi.ko
+drivers/net/wireless/realtek/rtlwifi/rtl_usb.ko
+drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.ko
+drivers/net/wireless/realtek/rtlwifi/rtl8192cu/rtl8192cu.ko
+drivers/net/wireless/realtek/rtl8xxxu/rtl8xxxu.ko

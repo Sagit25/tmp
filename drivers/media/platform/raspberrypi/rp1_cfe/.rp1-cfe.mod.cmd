@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/raspberrypi/rp1_cfe/rp1-cfe.mod := printf '%s\n'   cfe.o csi2.o pisp_fe.o dphy.o | awk '!x[$$0]++ { print("drivers/media/platform/raspberrypi/rp1_cfe/"$$0) }' > drivers/media/platform/raspberrypi/rp1_cfe/rp1-cfe.mod

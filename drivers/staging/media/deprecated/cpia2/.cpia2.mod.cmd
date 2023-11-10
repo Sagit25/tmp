@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/cpia2/cpia2.mod := printf '%s\n'   cpia2_v4l.o cpia2_usb.o cpia2_core.o | awk '!x[$$0]++ { print("drivers/staging/media/deprecated/cpia2/"$$0) }' > drivers/staging/media/deprecated/cpia2/cpia2.mod

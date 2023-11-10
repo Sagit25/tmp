@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/intersil/p54/modules.order := {   echo drivers/net/wireless/intersil/p54/p54common.ko;   echo drivers/net/wireless/intersil/p54/p54usb.ko; :; } > drivers/net/wireless/intersil/p54/modules.order

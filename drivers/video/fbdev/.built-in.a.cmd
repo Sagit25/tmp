@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/built-in.a := rm -f drivers/video/fbdev/built-in.a;  printf "drivers/video/fbdev/%s " core/built-in.a bcm2708_fb.o omap/built-in.a omap2/built-in.a simplefb.o | xargs aarch64-linux-gnu-ar cDPrST drivers/video/fbdev/built-in.a

@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/marvell/libertas/usb8xxx.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/wireless/marvell/libertas/usb8xxx.ko drivers/net/wireless/marvell/libertas/usb8xxx.o drivers/net/wireless/marvell/libertas/usb8xxx.mod.o;  true

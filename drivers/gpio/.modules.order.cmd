@@ -1,0 +1,1 @@
+cmd_drivers/gpio/modules.order := {   echo drivers/gpio/gpio-arizona.ko;   echo drivers/gpio/gpio-fsm.ko;   echo drivers/gpio/gpio-max7300.ko;   echo drivers/gpio/gpio-max7301.ko;   echo drivers/gpio/gpio-max730x.ko;   echo drivers/gpio/gpio-mockup.ko;   echo drivers/gpio/gpio-pca953x.ko;   echo drivers/gpio/gpio-pcf857x.ko; :; } > drivers/gpio/modules.order

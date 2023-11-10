@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-bcm/built-in.a := rm -f arch/arm/mach-bcm/built-in.a;  printf "arch/arm/mach-bcm/%s " board_bcm2835.o bcm2711.o platsmp.o | xargs arm-linux-gnueabihf-ar cDPrST arch/arm/mach-bcm/built-in.a

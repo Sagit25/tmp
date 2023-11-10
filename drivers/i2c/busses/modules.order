@@ -1,0 +1,8 @@
+drivers/i2c/busses/i2c-bcm2708.ko
+drivers/i2c/busses/i2c-bcm2835.ko
+drivers/i2c/busses/i2c-designware-core.ko
+drivers/i2c/busses/i2c-designware-platform.ko
+drivers/i2c/busses/i2c-gpio.ko
+drivers/i2c/busses/i2c-robotfuzz-osif.ko
+drivers/i2c/busses/i2c-tiny-usb.ko
+drivers/i2c/busses/i2c-brcmstb.ko

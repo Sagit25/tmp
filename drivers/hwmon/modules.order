@@ -1,0 +1,16 @@
+drivers/hwmon/aht10.ko
+drivers/hwmon/ds1621.ko
+drivers/hwmon/emc2305.ko
+drivers/hwmon/gpio-fan.ko
+drivers/hwmon/iio_hwmon.ko
+drivers/hwmon/ina2xx.ko
+drivers/hwmon/jc42.ko
+drivers/hwmon/lm75.ko
+drivers/hwmon/pwm-fan.ko
+drivers/hwmon/raspberrypi-hwmon.ko
+drivers/hwmon/rp1-adc.ko
+drivers/hwmon/sht21.ko
+drivers/hwmon/sht3x.ko
+drivers/hwmon/sht4x.ko
+drivers/hwmon/shtc1.ko
+drivers/hwmon/tmp102.ko

@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/modules.order := {   echo drivers/input/keyboard/cap11xx.ko;   echo drivers/input/keyboard/gpio_keys.ko;   echo drivers/input/keyboard/tca6416-keypad.ko;   echo drivers/input/keyboard/tca8418_keypad.ko;   echo drivers/input/keyboard/matrix_keypad.ko; :; } > drivers/input/keyboard/modules.order

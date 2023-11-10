@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/broadcom/b43/b43.mod := printf '%s\n'   main.o bus.o phy_g.o tables.o lo.o wa.o phy_common.o phy_lp.o tables_lpphy.o phy_ht.o tables_phy_ht.o radio_2059.o sysfs.o xmit.o dma.o pio.o rfkill.o ppr.o leds.o | awk '!x[$$0]++ { print("drivers/net/wireless/broadcom/b43/"$$0) }' > drivers/net/wireless/broadcom/b43/b43.mod

@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/tm6000/tm6000-alsa.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/staging/media/deprecated/tm6000/tm6000-alsa.ko drivers/staging/media/deprecated/tm6000/tm6000-alsa.o drivers/staging/media/deprecated/tm6000/tm6000-alsa.mod.o;  true

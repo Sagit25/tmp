@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/core/syscopyarea.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/video/fbdev/core/syscopyarea.ko drivers/video/fbdev/core/syscopyarea.o drivers/video/fbdev/core/syscopyarea.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/spi/modules.order := {   echo drivers/spi/spidev.ko;   echo drivers/spi/spi-bcm2835.ko;   echo drivers/spi/spi-bcm2835aux.ko;   echo drivers/spi/spi-bitbang.ko;   echo drivers/spi/spi-dw.ko;   echo drivers/spi/spi-dw-mmio.ko;   echo drivers/spi/spi-gpio.ko; :; } > drivers/spi/modules.order

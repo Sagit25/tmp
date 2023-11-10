@@ -1,0 +1,1 @@
+cmd_drivers/ata/libata.mod := printf '%s\n'   libata-core.o libata-scsi.o libata-eh.o libata-transport.o libata-trace.o libata-sata.o libata-sff.o libata-pmp.o | awk '!x[$$0]++ { print("drivers/ata/"$$0) }' > drivers/ata/libata.mod

@@ -1,0 +1,4 @@
+drivers/iio/light/apds9960.ko
+drivers/iio/light/bh1750.ko
+drivers/iio/light/tsl4531.ko
+drivers/iio/light/veml6070.ko

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.ko drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.o drivers/gpu/drm/rp1/rp1-dpi/drm-rp1-dpi.mod.o;  true

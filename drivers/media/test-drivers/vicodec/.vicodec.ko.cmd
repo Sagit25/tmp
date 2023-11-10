@@ -1,0 +1,1 @@
+cmd_drivers/media/test-drivers/vicodec/vicodec.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/test-drivers/vicodec/vicodec.ko drivers/media/test-drivers/vicodec/vicodec.o drivers/media/test-drivers/vicodec/vicodec.mod.o;  true

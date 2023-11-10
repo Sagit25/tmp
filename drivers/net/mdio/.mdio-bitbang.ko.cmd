@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio/mdio-bitbang.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/mdio/mdio-bitbang.ko drivers/net/mdio/mdio-bitbang.o drivers/net/mdio/mdio-bitbang.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/zr364xx/zr364xx.mod := printf '%s\n'   zr364xx.o | awk '!x[$$0]++ { print("drivers/staging/media/deprecated/zr364xx/"$$0) }' > drivers/staging/media/deprecated/zr364xx/zr364xx.mod

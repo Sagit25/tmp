@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/ad714x-spi.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/input/misc/ad714x-spi.ko drivers/input/misc/ad714x-spi.o drivers/input/misc/ad714x-spi.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_drivers/net/phy/phylink.ko := arm-linux-gnueabihf-ld -r -EL -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/net/phy/phylink.ko drivers/net/phy/phylink.o drivers/net/phy/phylink.mod.o;  true

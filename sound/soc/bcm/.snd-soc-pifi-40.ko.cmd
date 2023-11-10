@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-pifi-40.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o sound/soc/bcm/snd-soc-pifi-40.ko sound/soc/bcm/snd-soc-pifi-40.o sound/soc/bcm/snd-soc-pifi-40.mod.o;  true

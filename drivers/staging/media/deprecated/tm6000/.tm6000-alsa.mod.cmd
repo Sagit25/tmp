@@ -1,0 +1,1 @@
+cmd_drivers/staging/media/deprecated/tm6000/tm6000-alsa.mod := printf '%s\n'   tm6000-alsa.o | awk '!x[$$0]++ { print("drivers/staging/media/deprecated/tm6000/"$$0) }' > drivers/staging/media/deprecated/tm6000/tm6000-alsa.mod

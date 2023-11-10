@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/video-mux.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/media/platform/video-mux.ko drivers/media/platform/video-mux.o drivers/media/platform/video-mux.mod.o;  true

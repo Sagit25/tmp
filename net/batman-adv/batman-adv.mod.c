@@ -1,0 +1,182 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/elfnote-lto.h>
+#include <linux/export-internal.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+BUILD_LTO_INFO;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0xe98913cb, "dev_set_mtu" },
+	{ 0x6e720ff2, "rtnl_unlock" },
+	{ 0x49cd25ed, "alloc_workqueue" },
+	{ 0xd3df344b, "cfg80211_get_station" },
+	{ 0x61b8d21b, "skb_copy_bits" },
+	{ 0xa5ac627a, "ipv6_mc_check_mld" },
+	{ 0x48471741, "skb_put" },
+	{ 0x8d522714, "__rcu_read_lock" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x85670f1d, "rtnl_is_locked" },
+	{ 0x972a3723, "consume_skb" },
+	{ 0xe113bbbc, "csum_partial" },
+	{ 0x5a9f1d63, "memmove" },
+	{ 0x8e7188f2, "param_get_string" },
+	{ 0xc0bec8ef, "dev_add_pack" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xc5b6f236, "queue_work_on" },
+	{ 0x970b74c0, "br_multicast_has_querier_adjacent" },
+	{ 0xf2507273, "nla_put_64bit" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x97ed49d6, "rtnl_link_register" },
+	{ 0x942352e7, "genlmsg_put" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0xb43845b0, "dev_get_iflink" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x44f0ad9, "get_random_u16" },
+	{ 0xe2a4edbe, "eth_validate_addr" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0xf6ebc03b, "net_ratelimit" },
+	{ 0xe2964344, "__wake_up" },
+	{ 0xc751952b, "unregister_netdevice_queue" },
+	{ 0xad19a2c4, "kmem_cache_create" },
+	{ 0xf0f9eba2, "skb_pull_rcsum" },
+	{ 0xd2800691, "nf_conntrack_destroy" },
+	{ 0x3928efe9, "__per_cpu_offset" },
+	{ 0xba8fbd64, "_raw_spin_lock" },
+	{ 0xc84f456a, "__pskb_copy_fclone" },
+	{ 0x56962cfc, "ether_setup" },
+	{ 0xdf88e9ff, "param_set_copystring" },
+	{ 0xc21a12c4, "pskb_expand_head" },
+	{ 0xbf613d39, "wake_up_process" },
+	{ 0x43e6b431, "dev_addr_mod" },
+	{ 0x4d888bc1, "cfg80211_calculate_bitrate" },
+	{ 0x355bf77a, "eth_type_trans" },
+	{ 0x92997ed8, "_printk" },
+	{ 0x96b29254, "strncasecmp" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x8da6585d, "__stack_chk_fail" },
+	{ 0x296695f, "refcount_warn_saturate" },
+	{ 0xb2fcb56d, "queue_delayed_work_on" },
+	{ 0xe46021ca, "_raw_spin_unlock_bh" },
+	{ 0xe739bb49, "netlink_broadcast" },
+	{ 0x22af2c3c, "__alloc_skb" },
+	{ 0x477468f0, "kmem_cache_alloc" },
+	{ 0xa91d6818, "skb_copy_expand" },
+	{ 0x9f46ced8, "__sw_hweight64" },
+	{ 0xec7546ac, "kobject_uevent_env" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0xd9ff8e23, "__dev_get_by_index" },
+	{ 0x9dca0260, "rtnl_link_unregister" },
+	{ 0xf70e4a4d, "preempt_schedule_notrace" },
+	{ 0x121445a5, "skb_pull" },
+	{ 0xdc3fcbc9, "__sw_hweight8" },
+	{ 0x2469810f, "__rcu_read_unlock" },
+	{ 0x8cc61846, "netlink_unicast" },
+	{ 0xc38c83b8, "mod_timer" },
+	{ 0xa07afb40, "dev_remove_pack" },
+	{ 0x41f9298d, "dev_get_by_index" },
+	{ 0xc9d4c42, "kfree_skb_reason" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0x4dfa8d4b, "mutex_lock" },
+	{ 0x3f059ff8, "skb_push" },
+	{ 0x295304c8, "kmem_cache_free" },
+	{ 0x44278fd8, "netdev_upper_dev_unlink" },
+	{ 0xbd6841d4, "crc16" },
+	{ 0xb310efd8, "nla_put" },
+	{ 0xcd279169, "nla_find" },
+	{ 0x53a1e8d9, "_find_next_bit" },
+	{ 0x89e6c62e, "skb_prepare_seq_read" },
+	{ 0x8932f5b, "ethtool_op_get_link" },
+	{ 0xcefb0c9f, "__mutex_init" },
+	{ 0xb80077fc, "arp_create" },
+	{ 0x1c22ccfb, "__ethtool_get_link_ksettings" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x3dad9978, "cancel_delayed_work" },
+	{ 0xa5f7cf37, "__cpu_possible_mask" },
+	{ 0xdcb764ad, "memset" },
+	{ 0x234b5547, "br_multicast_has_querier_anywhere" },
+	{ 0x5c3c7387, "kstrtoull" },
+	{ 0x97934ecf, "del_timer_sync" },
+	{ 0x17de3d5, "nr_cpu_ids" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0xc395bc26, "__pskb_pull_tail" },
+	{ 0xc04c722c, "netif_rx" },
+	{ 0xd5d41701, "ip_mc_check_igmp" },
+	{ 0x7772754f, "__netdev_alloc_skb" },
+	{ 0x7755f959, "netdev_master_upper_dev_link" },
+	{ 0xfb384d37, "kasprintf" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0x1b0efe7f, "skb_trim" },
+	{ 0x9d0d6206, "unregister_netdevice_notifier" },
+	{ 0xc9ec4e21, "free_percpu" },
+	{ 0x15ba50a6, "jiffies" },
+	{ 0x38d330cb, "kthread_create_on_node" },
+	{ 0x2c3ad184, "br_multicast_list_adjacent" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xb15b4109, "crc32c" },
+	{ 0xdd64e639, "strscpy" },
+	{ 0x28aa6a67, "call_rcu" },
+	{ 0xd2e1e604, "__dev_queue_xmit" },
+	{ 0xbaf22757, "kvfree_call_rcu" },
+	{ 0x3213f038, "mutex_unlock" },
+	{ 0x9fa7184a, "cancel_delayed_work_sync" },
+	{ 0xc6f46339, "init_timer_key" },
+	{ 0x7119c34a, "__dev_kfree_skb_any" },
+	{ 0x949f7342, "__alloc_percpu" },
+	{ 0xfe211feb, "netdev_master_upper_dev_get_rcu" },
+	{ 0x56470118, "__warn_printk" },
+	{ 0xd2da1048, "register_netdevice_notifier" },
+	{ 0xffeedf6a, "delayed_work_timer_fn" },
+	{ 0x1f1bbd31, "skb_copy" },
+	{ 0xbb239eb9, "br_multicast_has_router_adjacent" },
+	{ 0x461c9d06, "skb_clone" },
+	{ 0xc3690fc, "_raw_spin_lock_bh" },
+	{ 0xc7a4fbed, "rtnl_lock" },
+	{ 0x8631c9ba, "alt_cb_patch_nops" },
+	{ 0x41ed3709, "get_random_bytes" },
+	{ 0xfc2bbbe6, "genl_unregister_family" },
+	{ 0x26d6b51d, "kmalloc_trace" },
+	{ 0x60a13e90, "rcu_barrier" },
+	{ 0x98cf60b3, "strlen" },
+	{ 0x2b68bd2f, "del_timer" },
+	{ 0xd308dc92, "skb_split" },
+	{ 0x349cba85, "strchr" },
+	{ 0xa67cd91b, "genl_register_family" },
+	{ 0xb5b54b34, "_raw_spin_unlock" },
+	{ 0x6c84c69, "skb_seq_read" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0xca050b95, "kmalloc_caches" },
+	{ 0x9858f364, "get_random_u8" },
+	{ 0x357963bc, "kmem_cache_destroy" },
+	{ 0x7717fe14, "register_netdevice" },
+	{ 0xe28e8a80, "module_layout" },
+};
+
+MODULE_INFO(depends, "cfg80211,bridge");
+
+
+MODULE_INFO(srcversion, "7B674E5AA764E8AA9F82D67");

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/panel/panel-ilitek-ili9806e.mod := printf '%s\n'   panel-ilitek-ili9806e.o | awk '!x[$$0]++ { print("drivers/gpu/drm/panel/"$$0) }' > drivers/gpu/drm/panel/panel-ilitek-ili9806e.mod

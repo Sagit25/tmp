@@ -1,0 +1,1 @@
+cmd_drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.mod := printf '%s\n'   bcm2835.o bcm2835-ctl.o bcm2835-pcm.o bcm2835-vchiq.o | awk '!x[$$0]++ { print("drivers/staging/vc04_services/bcm2835-audio/"$$0) }' > drivers/staging/vc04_services/bcm2835-audio/snd-bcm2835.mod

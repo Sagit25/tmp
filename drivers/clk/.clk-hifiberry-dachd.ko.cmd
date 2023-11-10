@@ -1,0 +1,1 @@
+cmd_drivers/clk/clk-hifiberry-dachd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o drivers/clk/clk-hifiberry-dachd.ko drivers/clk/clk-hifiberry-dachd.o drivers/clk/clk-hifiberry-dachd.mod.o;  true

@@ -1,0 +1,5 @@
+drivers/power/supply/rpi_poe_power.ko
+drivers/power/supply/ds2760_battery.ko
+drivers/power/supply/ltc2941-battery-gauge.ko
+drivers/power/supply/max17040_battery.ko
+drivers/power/supply/gpio-charger.ko

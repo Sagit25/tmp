@@ -1,0 +1,4 @@
+drivers/iio/pressure/bmp280.ko
+drivers/iio/pressure/bmp280-i2c.ko
+drivers/iio/pressure/bmp280-spi.ko
+drivers/iio/pressure/ms5637.ko

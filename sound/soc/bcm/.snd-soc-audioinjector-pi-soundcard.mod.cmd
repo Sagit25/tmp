@@ -1,0 +1,1 @@
+cmd_sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.mod := printf '%s\n'   audioinjector-pi-soundcard.o | awk '!x[$$0]++ { print("sound/soc/bcm/"$$0) }' > sound/soc/bcm/snd-soc-audioinjector-pi-soundcard.mod
